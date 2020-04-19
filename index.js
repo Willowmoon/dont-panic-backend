@@ -10,11 +10,15 @@ app.get("/", (req, res) => {
     
 });
 
-// Needs a router import: const cookbookRouter = require('./routes/cookbookRoutes');
+const gameRouter = require('./routes/game-route');
+const menuRoute = require('./routes/menu-route');
+const scoreRouter = require('./routes/score-route');
 
 app.use(parser.json());
 
-// Needs a router: app.use('/api/cookbooks/', cookbookRouter);
+app.use('/Game', gameRouter);
+app.use('/Menu', menuRoute);
+app.use('/Scoreboard', scoreRouter);
 
 app.set("port", process.env.PORT || 3000);
 
