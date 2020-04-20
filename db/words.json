@@ -1,22 +1,42 @@
 [
     {
-        "word":"<h1>Whatup World</h1>",
+        "word":"<h1>",
         "difficulty":"easy"
     },
     {
-        "word":"<h2>Whatup World</h2>",
+        "word":"</h1>",
         "difficulty":"easy"
     },
     {
-        "word":"<h3>Whatup World</h3>",
+        "word":"<h2>",
         "difficulty":"easy"
     },
     {
-        "word":"<h4>Whatup World</h4>",
+        "word":"</h2>",
         "difficulty":"easy"
     },
     {
-        "word":"<h5>Whatup World</h5>",
+        "word":"<h3>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"</h3>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"<h4>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"</h4>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"<h5>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"</h5>",
         "difficulty":"easy"
     },
     {
@@ -24,11 +44,19 @@
         "difficulty":"easy"
     },
     {
-        "word":"while(i > 0)",
+        "word":"while()",
         "difficulty":"easy"
     },
     {
         "word":"${body}",
+        "difficulty":"easy"
+    },
+    {
+        "word":"&& ||",
+        "difficulty":"easy"
+    },
+    {
+        "word":"cd ~",
         "difficulty":"easy"
     },
     {
@@ -46,6 +74,14 @@
     {
         "word":"object ? true : false",
         "difficulty":"medium"
+    },
+    {
+        "word":"<p>I'm a p tag!</p>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"<h5>Whatup World</h5>",
+        "difficulty":"easy"
     },
     {
         "word":"function myFunction(p1, p2) {return p1*p2} ",
