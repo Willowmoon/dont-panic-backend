@@ -1,0 +1,152 @@
+[
+    {
+        "word":"<h1>Hello World</h1>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"<h2>Hello World</h2>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"<h3>Hello World</h3>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"<h4>Hello World</h4>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"<h5>Hello World</h5>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"<img>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"while(i > 0)",
+        "difficulty":"easy"
+    },
+    {
+        "word":"${body}",
+        "difficulty":"easy"
+    },
+    {
+        "word":"<img src=''>",
+        "difficulty":"medium"
+    },
+    {
+        "word":"(number).toFixed(2)",
+        "difficulty":"medium"
+    }, 
+    {
+        "word":"for(let=i; i>0; i++){}",
+        "difficulty":"medium"
+    }, 
+    {
+        "word":"object ? true : false",
+        "difficulty":"medium"
+    },
+    {
+        "word":"function myFunction(p1, p2) {return p1*p2} ",
+        "difficulty":"medium"
+    },
+    {
+        "word":"var pos = str.lastIndexOf('John');",
+        "difficulty":"medium"
+    },
+    {
+        "word":"var pos = str.lastIndexOf('locate', 15);",
+        "difficulty":"medium"
+    },
+    {
+        "word":"var cars = ['Saab', 'Volvo', 'BMW'];",
+        "difficulty":"medium"
+    },    
+    {
+        "word":"var person = {firstName:'John', lastName:'Doe', age:46};",
+        "difficulty":"medium"
+    },    
+    {
+        "word":"points.sort(function(a, b){return b - a});",
+        "difficulty":"medium"
+    },
+    {
+        "word":"cars.sort(function(a, b){return a.year - b.year});",
+        "difficulty":"medium"
+    },  
+    {
+        "word":"numbers.forEach(number => return number);",
+        "difficulty":"medium"
+    },  
+    {
+        "word":"var d = new Date();",
+        "difficulty":"medium"
+    },
+    {
+        "word":"Math.floor(4.7)",
+        "difficulty":"medium"
+    },  
+    {
+        "word":"Math.sin(90 * Math.PI / 180);",
+        "difficulty":"medium"
+    },  
+    {
+        "word":"Math.cos(0 * Math.PI / 180);",
+        "difficulty":"medium"
+    },  
+    {
+        "word":"Math.min(0, 150, 30, 20, -8, -20);",
+        "difficulty":"medium"
+    },
+    {
+        "word":"Math.floor(Math.random() * 10);",
+        "difficulty":"medium"
+    },  
+    {
+        "word":"if (age < 18) text = 'young';",
+        "difficulty":"medium"
+    },  
+    {
+        "word":"var voteable = (age < 18) ? 'young':'Old enough';",
+        "difficulty":"medium"
+    },  
+    {
+        "word":"if (hour < 18) {greeting = 'Today was a GREAT day'}",
+        "difficulty":"medium"
+    },
+    {
+        "word":"for (i = 0; i < 5; i++) {text += 'The number is ' + i + '<br>'}",
+        "difficulty":"medium"
+    },    
+    {
+        "word":"for (i = 0, len = cars.length, text = '' i < len; i++) {text += cars[i] + '<br>'}",
+        "difficulty":"medium"
+    },    
+    {
+        "word":"while (i < 10) {text += 'The number is ' + i; i++;}",
+        "difficulty":"medium"
+    },    
+    {
+        "word":"do {text += 'The number is '' + i+=1; } while (i < 10);",
+        "difficulty":"medium"
+    },
+    {
+        "word":"do {text += 'The number is '' + i+=1; } while (i < 10);",
+        "difficulty":"medium"
+    },     
+    {
+        "word":"do {text += 'The number is '' + i; i+=1;} while (i < 10);",
+        "difficulty":"medium"
+    },     
+    {
+        "word":"do {text += 'The number is '' + i; i++;} while (i < 10);",
+        "difficulty":"medium"
+    },     
+    {
+        "word":"do {text += 'The number is '' + i; i++;} while (i < 10);",
+        "difficulty":"medium"
+    },                                     
+      
+
+]
