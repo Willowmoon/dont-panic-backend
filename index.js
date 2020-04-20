@@ -5,7 +5,7 @@ const app = express();
 app.get("/", (req, res) => {
     res.status(200).json({
         "status": 200,
-        "msg" : "server is up and running"
+        "msg" : "Test"
     });
     
 });
