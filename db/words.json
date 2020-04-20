@@ -1,22 +1,22 @@
 [
     {
-        "word":"<h1>Hello World</h1>",
+        "word":"<h1>Whatup World</h1>",
         "difficulty":"easy"
     },
     {
-        "word":"<h2>Hello World</h2>",
+        "word":"<h2>Whatup World</h2>",
         "difficulty":"easy"
     },
     {
-        "word":"<h3>Hello World</h3>",
+        "word":"<h3>Whatup World</h3>",
         "difficulty":"easy"
     },
     {
-        "word":"<h4>Hello World</h4>",
+        "word":"<h4>Whatup World</h4>",
         "difficulty":"easy"
     },
     {
-        "word":"<h5>Hello World</h5>",
+        "word":"<h5>Whatup World</h5>",
         "difficulty":"easy"
     },
     {
@@ -40,7 +40,7 @@
         "difficulty":"medium"
     }, 
     {
-        "word":"for(let=i; i>0; i++){}",
+        "word":"for(let=i; i>0; i+=1){}",
         "difficulty":"medium"
     }, 
     {
@@ -60,7 +60,7 @@
         "difficulty":"medium"
     },
     {
-        "word":"var cars = ['Saab', 'Volvo', 'BMW'];",
+        "word":"var cars = ['Sab', 'Volvo', 'BMW'];",
         "difficulty":"medium"
     },    
     {
@@ -84,7 +84,7 @@
         "difficulty":"medium"
     },
     {
-        "word":"Math.floor(4.7)",
+        "word":"Math.ceil(4.7)",
         "difficulty":"medium"
     },  
     {
@@ -100,7 +100,7 @@
         "difficulty":"medium"
     },
     {
-        "word":"Math.floor(Math.random() * 10);",
+        "word":"Math.ceil(Math.random() * 10);",
         "difficulty":"medium"
     },  
     {
@@ -116,7 +116,7 @@
         "difficulty":"medium"
     },
     {
-        "word":"for (i = 0; i < 5; i++) {text += 'The number is ' + i + '<br>'}",
+        "word":"for (i = 0; i < 5; i+=1) {text += 'The number is ' + i + '<br>'}",
         "difficulty":"medium"
     },    
     {
@@ -124,7 +124,7 @@
         "difficulty":"medium"
     },    
     {
-        "word":"while (i < 10) {text += 'The number is ' + i; i++;}",
+        "word":"while (i < 10) {text += 'The number is ' + i; i+=1;}",
         "difficulty":"medium"
     },    
     {
@@ -132,21 +132,21 @@
         "difficulty":"medium"
     },
     {
-        "word":"do {text += 'The number is '' + i+=1; } while (i < 10);",
+        "word":"Wasntme = () => {return 'but she caught me on the counter'}",
         "difficulty":"medium"
     },     
     {
-        "word":"do {text += 'The number is '' + i; i+=1;} while (i < 10);",
+        "word":"Wasntme = () => {return 'Saw me bangin' on the sofa'}",
         "difficulty":"medium"
     },     
     {
-        "word":"do {text += 'The number is '' + i; i++;} while (i < 10);",
+        "word":"Wasntme = () => {return 'She saw the marks on my shoulder'}",
         "difficulty":"medium"
     },     
     {
-        "word":"do {text += 'The number is '' + i; i++;} while (i < 10);",
+        "word":"Wasntme = () => {return 'Heard the words that I told her'}",
         "difficulty":"medium"
-    },                                     
+    }                                     
       
 
 ]
