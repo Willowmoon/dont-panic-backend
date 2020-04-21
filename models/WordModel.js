@@ -1,4 +1,3 @@
-//import connection
 const mongoose = require('../db/connection');
 const Schema = mongoose.Schema;
 
@@ -7,6 +6,6 @@ const wordSchema = new Schema ({
     difficulty: String,
 });
 
-const codeWords = mongoose.model("codeWords", wordSchema);
+const WordModel = mongoose.model("Word", wordSchema);
 
-module.exports = codeWords;
+module.exports = WordModel;
