@@ -260,7 +260,7 @@
         "difficulty":"dangerous"
     },
     {
-        "word":"cars.sort(function(a, b) => {return a.year - b.year});",
+        "word":"cars.sort(function(a, b) => {(return a.year - b.year)/3});",
         "difficulty":"dangerous"
     },                         
       
