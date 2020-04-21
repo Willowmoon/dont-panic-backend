@@ -23,7 +23,7 @@ app.use('/user', UserRouter);
 app.use('/word', WordRouter);
 app.use('/seed', SeedRouter)
 
-app.set("port", process.env.PORT || 3000);
+app.set("port", process.env.PORT || 8080);
 
 app.listen(app.get("port"), () => {
   console.log(`✅ PORT: ${app.get("port")} 🌟`);

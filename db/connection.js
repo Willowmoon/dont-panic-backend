@@ -12,3 +12,4 @@ mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.Promise = Promise;
 
 module.exports = mongoose;
+
