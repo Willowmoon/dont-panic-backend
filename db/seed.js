@@ -1,6 +1,6 @@
 const User = require('../models/UserModel')
 const Word = require('../models/WordModel')
-const userData = require('./user.json')
+const userData = require('./users.json')
 const wordData = require('./words.json')
 const mongoose = require('./connection')
 
