@@ -1,18 +1,7 @@
-const mongoose = require('../db/connection')
 const Word = require('../models/WordModel')
 const data = require('../db/words.json')
 
-const seedDatabase = (req, res) => {
-    Word.deleteMany({}).then(() => {
-        Word.collection.insert(data).then(data => {
-            res.json(data)
-        }).catch(err => {
-            res.json(data)
-        })
-    }).then(() => {
-        mongoose.connection.close()
-    })
-}
+
 const getAll = (req, res) => {
     Word.find({}).then(data => {
         res.json(data)
@@ -42,7 +31,6 @@ const deleteWord = (req, res) => {
     })
 }
 module.exports = {
-    seedDatabase,
     getAll,
     createWord,
     updateWord,

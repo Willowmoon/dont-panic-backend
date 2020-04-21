@@ -13,7 +13,6 @@ app.get("/", (req, res) => {
 
 const WordRouter = require('./routes/WordRouter');
 const UserRouter = require('./routes/UserRouter');
-const SeedRouter = require('./routes/SeedRouter')
 
 app.use(parser.json());
 app.use(parser.urlencoded({ extended: true }));
@@ -21,7 +20,6 @@ app.use(cors());
 
 app.use('/user', UserRouter);
 app.use('/word', WordRouter);
-app.use('/seed', SeedRouter)
 
 app.set("port", process.env.PORT || 8080);
 

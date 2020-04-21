@@ -1,18 +1,6 @@
-const mongoose = require('../db/connection')
 const User = require('../models/UserModel')
 const data = require('../db/users.json')
 
-const seedDatabase = (req, res) => {
-    User.deleteMany({}).then(() => {
-        User.collection.insert(data).then(data => {
-            res.json(data)
-        }).catch(err => {
-            res.json(data)
-        })
-    }).then(() => {
-        mongoose.connection.close()
-    })
-}
 const getAll = (req, res) => {
     User.find({}).then(data => {
         res.json(data)
@@ -42,7 +30,6 @@ const deleteUser = (req, res) => {
     })
 }
 module.exports = {
-    seedDatabase,
     getAll,
     createUser,
     updateUser,
