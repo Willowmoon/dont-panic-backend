@@ -96,6 +96,18 @@
         "difficulty":"easy"
     },
     {
+        "word":"<^w^>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"<(0.0)>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"$(o.o)$",
+        "difficulty":"easy"
+    },
+    {
         "word":"<img src='url'>",
         "difficulty":"medium"
     },
@@ -212,6 +224,42 @@
         "difficulty":"medium"
     },
     {
+        "word":"text-transformation:UpPercase;",
+        "difficulty":"medium"
+    },
+    {
+        "word":"if (milkshake=true) boyz = 'InTheYard';",
+        "difficulty":"medium"
+    },
+    {
+        "word":"background-size: cover;",
+        "difficulty":"medium"
+    },
+    {
+        "word":"text-shadow: 3px 3px 3px #f8601e;",
+        "difficulty":"medium"
+    },
+    {
+        "word":"if(roach=papa){return mediocre at best}",
+        "difficulty":"medium"
+    },
+    {
+        "word":"<a href=“urlLink target=“_blank”></a>",
+        "difficulty":"medium"
+    },
+    {
+        "word":"<button>Click me!</button>",
+        "difficulty":"medium"
+    },
+    {
+        "word":"<p id=“me”>very unique</a>",
+        "difficulty":"medium"
+    },
+    {
+        "word":"<NickelBack oldPhotograph={oldPhotograph) />",
+        "difficulty":"medium"
+    },
+    {
         "word":"points.sort(function(a, b){return b - a});",
         "difficulty":"hard"
     }, 
@@ -308,6 +356,18 @@
         "difficulty":"hard"
     },
     {
+        "word":"@media (min-width: 50px) {.claSsname{some:style}}",
+        "difficulty":"hard"
+    },
+    {
+        "word":"sortFunction(a.substr(a[0].length), b.substr(_[0].length));",
+        "difficulty":"hard"
+    },
+    {
+        "word":"setInput([idName, [.,.answerAr.r, value].join(',')]);",
+        "difficulty":"hard"
+    },
+    {
         "word":"for (i = 0; i < 5; i+=1) {text += 'The number is ' + i + '<br>'}",
         "difficulty":"dangerous"
     },
@@ -322,6 +382,14 @@
     {
         "word":"var deathToKevin = minions.filter('Kevin');",
         "difficulty":"dangerous"
-    }                          
+    },      
+    {
+        "word":"background: url('./collections/images/page-one/column-one/link-one/thisIsALongOne.jpg');",
+        "difficulty":"dangerous"
+    },                          
+    {
+        "word":"background: url('./hey-now/youre-a-rockstar/get-the-show-on/get-paid.tiff');",
+        "difficulty":"dangerous"
+    }                                              
 
 ]
